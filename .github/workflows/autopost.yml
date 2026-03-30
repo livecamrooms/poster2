@@ -23,9 +23,9 @@ name: Chaturbate Bluesky Autopost
 on:
   schedule:
     # First post window: 7 minutes past every hour  (UTC)
-    - cron: "7 * * * *"
+    - cron: "9 * * * *"
     # Second post window: 37 minutes past every hour (UTC)
-    - cron: "37 * * * *"
+    - cron: "17 * * * *"
 
 
 jobs:
